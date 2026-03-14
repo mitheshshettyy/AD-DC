@@ -1,0 +1,19 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Generated files
+function.zip
+output.json
+sample*.txt
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
