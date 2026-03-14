@@ -1,0 +1,11 @@
+services:
+  localstack:
+    container_name: localstack_main
+    image: localstack/localstack
+    ports:
+      - "4566:4566"
+    environment:
+      - SERVICES=s3,lambda,events
+      - DEBUG=1
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
